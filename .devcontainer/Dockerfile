@@ -11,9 +11,6 @@ FROM rockylinux:8
 RUN dnf -y update 
 RUN dnf -y group install "Minimal Install" --allowerasing
 
-RUN adduser tec && echo "Passw0rd" | passwd --stdin tec
-
-# 01_installation_af_Rocky Linux R 003.pdf p 19
-RUN mkdir /backup \
-    && cp /etc/sysconfig/network-scripts/ifcfg-ens3 /backup/.
+RUN adduser tec && echo "Passw0rd" | passwd --stdin tec \
+    && echo "Passw0rd" | passwd root --stdin
 
