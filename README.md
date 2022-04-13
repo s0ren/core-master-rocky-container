@@ -31,3 +31,7 @@ næste stadie, er hvor vmware maskinen, var klar til at blive klonet. Her laver 
 Processen her afføder nogen docker images, som også kan organiseret med henblik på distrubution, men elevern skal jo have lov at lave noget af arbejdet...
 
 Jeg laver separate _MarkDown_ filer og nogen shellscript filer for at følge flowet i kompendierne. Disse organisres i mapper under standard-brugeren, `tec`s, hjemmemappe. Se `/home/tec/exercises`
+
+I denne branch forsøger jeg med at lægge alle linux konfiragtioner i flere commits (og branches), så alle filerne _er_ der når man checker den rigtige bransh ud.
+
+Se [Motivation.md](Motivation.md) og [conf-in-commits-playbook.md](conf-in-commits-playbook.md).
